@@ -13,20 +13,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HSI Bob Solution",
-  description: "HSI Bob Solution App",
+  title: "SustainAd",
+  description: "Sustainable Advertising Platform",
   manifest: "/manifest.json",
-  themeColor: "#8936FF",
-  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#10b981", // Green theme color for SustainAd
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "HSI Bob Solution",
+    title: "SustainAd",
   },
   icons: {
     icon: "/icon512_rounded.png",
     apple: "/icon512_rounded.png",
   },
+};
+
+// Separate viewport export
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
