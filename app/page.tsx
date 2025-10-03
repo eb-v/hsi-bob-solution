@@ -19,7 +19,12 @@ export default function Login() {
     <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       <div className="w-full max-w-md bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-green-500 mb-2">SustainAd</h1>
+          <h1 className="text-4xl font-bold mb-2">
+          <span className="text-white0">Sust</span>
+          <span className="text-green-500">AI</span>
+          <span className="text-white">nAD</span>
+          </h1>
+          
           <p className="text-gray-400">Welcome back</p>
         </div>
 
