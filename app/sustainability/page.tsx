@@ -259,7 +259,7 @@ export default function SustainabilityPage() {
       <div className="max-w-6xl mx-auto space-y-8">
         {/* ====== Header / Intro ====== */}
         <div>
-          <h2 className="text-3xl font-bold text-white mb-2">Carbon ROAD Optimizer</h2>
+          <h2 className="text-3xl font-bold text-white mb-2">Carbon ROAS Optimizer</h2>
           <p className="text-gray-400">
             MVP: Balance ad performance with a greener creative mix using a simple, transparent scoring approach.
           </p>
