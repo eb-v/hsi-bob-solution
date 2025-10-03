@@ -51,7 +51,7 @@ export default function PageLayout({ title, children }: PageLayoutProps) {
       <aside className={`${sidebarOpen ? 'w-64' : 'w-20'} bg-gray-800 border-r border-gray-700 transition-all duration-300 flex flex-col`}>
         {/* Sidebar Header */}
         <div className="p-4 border-b border-gray-700 flex items-center justify-between">
-          {sidebarOpen && <h2 className="text-xl font-bold text-green-500">SustainAd</h2>}
+          {sidebarOpen && <h2 className="text-xl font-bold text-green-500">SustAInAd</h2>}
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
             className="text-gray-400 hover:text-white transition-colors p-1 hover:bg-gray-700 rounded"
