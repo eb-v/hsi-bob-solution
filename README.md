@@ -1,37 +1,94 @@
-Prerequisites
-Next.js 14+ Node.js installed
-Git installed
+# HSI Bob Solution
 
-Setup Instructions
+> AI-Powered Marketing Intelligence Platform for Business Growth and Sustainability
 
-Install Dependencies
+**Demo version created for the HSI Bob Competition**
 
+A comprehensive Progressive Web App that leverages AI to optimize marketing campaigns, enhance customer retention, and track sustainability metrics for modern businesses. This project was developed as a proof-of-concept submission for the HSI Bob Competition.
+
+## Features
+
+### Intelligent Profile Management
+Create detailed business profiles that enable personalized AI-driven insights and recommendations tailored to your specific industry and audience.
+
+### AI-Powered Advertisement Refinement
+Upload any marketing material (images, flyers, ads) and transform them into highly personalized, optimized advertisements that resonate with your target audience.
+
+### Customer Retention Dashboard
+Monitor critical KPIs through interactive visualizations designed to help you understand and improve customer retention strategies.
+
+### Sustainability Analytics
+Track your environmental impact by analyzing carbon emissions relative to advertising revenue, complete with comprehensive visual analytics.
+
+## Tech Stack
+
+- **Framework:** Next.js 15 with Turbopack
+- **Frontend:** React 19, TypeScript
+- **Styling:** Tailwind CSS 4
+- **Icons:** Lucide React
+- **PWA:** next-pwa
+- **Deployment:** Vercel
+- **Development:** Node.js
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- Git installed
+- Modern web browser
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/hsi-bob-solution.git
+cd hsi-bob-solution
+```
+
+2. Install dependencies
+```bash
 npm install
-npm install lucide-react
+```
 
-What our application does:
+3. Run the development server
+```bash
+npm run dev
+```
 
-The app allows for clients/businesses to create a profile which allows our AI solution to personalize towards them better since the model gains context towards the client/business. It also allows for the client to upload any image or flyer that's an advertisement and refine it into a much more personalized and better advertisement. There is also a customer retention page which essentially a dashboard with important KPIs and interactive visuals that have to do with keeping our customers. Lastly, there is a sustainability page which compares how much our carbon emissions increase/decrease based on how much money we're making from our advertisements and gives a visual analysis for it as well.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-What tech/frameworks does it use:
+### Build for Production
 
-We used Node.js for our execution and Next.js as our framework. In terms of actually technology, all code was developed through the IDE VS code and pushed online to a repository through Github and deployed on Vercer. Some other things to note are that we did use a lucide package.
-
-What the judge should do to navigate/interpret our application:
-
-The judge should first sign in with any viable working email and any password of their choosing. Then from there, they will be brought to a home page with a side bar with multiple tabs. The judge can then go through and click through the tabs and interact with whatever is on each page. The sidebar will be visible on all pages accessed so the judge can go back to the home page whenever. I would suggest going to the Onboarding and Data Foundation page first, the Retention and Customer Marketing page second, and the Sustainability and Cost Efficiency page last.
-
-How to run the application:
-
-1 Run the Progressive Web App through deployed link on Vercer:
-
-https://hsi-bob-solution.vercel.app/
-
-2 Run the Development Server Locally:
-
+```bash
 npm run build
 npm start
+```
 
-Open http://localhost:3000 with your browser to see the result.
+## Live Demo
 
+Visit the deployed application: [https://hsi-bob-solution.vercel.app/](https://hsi-bob-solution.vercel.app/)
 
+## Usage Guide
+
+1. **Sign In**: Create an account using any valid email address
+2. **Explore the Dashboard**: Navigate through the sidebar to access different features
+3. **Recommended Flow**:
+   - Start with **Onboarding and Data Foundation** to set up your business profile
+   - Visit **Retention and Customer Marketing** to analyze customer metrics
+   - Check **Sustainability and Cost Efficiency** to review environmental impact
+
+## Project Structure
+
+```
+hsi-bob-solution/
+├── app/                    # Next.js app directory
+├── components/             # Reusable React components
+├── public/                 # Static assets
+├── styles/                 # Global styles
+└── package.json           # Project dependencies
+```
+
+---
+
+Built with Next.js, React, and Tailwind CSS
